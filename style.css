@@ -1,0 +1,66 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    color: snow;
+    text-align: center;
+    margin-top: 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+
+
+.timeline {
+    width: 70%;
+    height: 1px;
+    background-color: snow;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+button {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.item1 {
+    position: absolute;
+    top:47.5%;
+    left: 15%;
+}
+
+.item2 {
+    position: absolute;
+    top:50%;
+    left: 25%;
+}
+
+
+.item3 {
+    position: absolute;
+    top:50%;
+    left: 35%;
+}
+
+.item4 {
+    position: absolute;
+    top:50%;
+    left: 45%;
+}
+
+
+/* displays */
+
+.item-info {
+    position: absolute;
+    top:52%;
+    left: 14.5%;
+    color: snow;
+    font-size: .5rem;
+}
