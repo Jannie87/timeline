@@ -1,7 +1,10 @@
+
+/**
+ * Function that displays the next sibling p-tag on buttonclick.
+ * @param {*} event 
+ */
 function showHiddenInfo(event){
-    console.log(event.target);
     let info = event.target.nextElementSibling;
-    console.log(info);
     if (info.style.display === "none") {
         info.style.display ="block";
     } else {
